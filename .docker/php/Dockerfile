@@ -66,3 +66,6 @@ RUN a2enmod ssl
 
 EXPOSE 80
 EXPOSE 443
+
+# Install
+Composer RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
